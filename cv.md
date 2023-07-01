@@ -1,9 +1,9 @@
 # Kristina Andreeva
 ### Contacts
-E-mail: kandreeva783@gmail.com
-Telegram: @christinandreeva
-Discord: @flammenmeer94
-Git Hub: https://github.com/flammenmeer94
+E-mail: kandreeva783@gmail.com  
+Telegram: @christinandreeva  
+Discord: @flammenmeer94  
+Git Hub: https://github.com/flammenmeer94  
 ### About me
 I am a young student who is always ready for eager to self-improvement. I posses willpower and perseverance, which helps me achieve goals and overcome obstacles. In my free time, I like to read interesting articles and books for me, draw and be creative.
 ### Skills 
