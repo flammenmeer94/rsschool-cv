@@ -13,7 +13,7 @@ I am a young student who is always ready for eager to self-improvement. I posses
 
 ## Skills
 
-- Basic knowledges in Git  
+- Basic knowledges of Git  
 
 ## Education
 

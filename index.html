@@ -3,8 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 </head>
 <body>
+    <header class="header">
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="container main-container">
+
+        <section class="section section-profile" id="profile">
+            
+                <img src="./assets/img/profile-photo.png" alt="profile-photo" class="profile-photo">
+            <div class="section-profile-title">
+                <h1 class="main-title">Kristina Andreeva</h1>
+                <h3>Junior Front-end Developer</h3>
+            </div>
+        </section>
+
+        <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul>
+                <li class="contacts-item"><b>E-mail:</b> <a class="links" href="mailto:kandreeva783@gmail.com">kandreeva783@gmail.com</a></li>
+                <li><b>Telegram:</b>  @christinandreeva</li>
+                <li><b>Discord:</b> @flammenmeer94</li>
+                <li><b>Git Hub:</b> <a class="links" href="https://github.com/flammenmeer94">https://github.com/flammenmeer94</a></li>
+            </ul>
+        </section>
+
+        <section class="section" id="about">
+            <h2 class="section-title">About me</h2>
+                <p>I am a young student who is always ready for eager to self-improvement. I posses willpower and perseverance, which helps me achieve goals and overcome obstacles. In my free time, I like to read interesting articles and books for me, draw and be creative.</p>
+        </section>
+
+        <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>Basic knowledges of Git</li>
+                    <li><a class="links" href="https://code-basics.com/ru/languages/html">HTML: Basics</a></li>
+                    <li><a class="links" href="https://code-basics.com/ru/languages/css">CSS: Basics</a></li>
+                </ul>
+        </section>
+
+        <section class="section" id="code">
+            <h2 class="section-title">Code example</h2>
+            <pre class="pre">
+                <code>
+                    function factorial(n) {
+                        if(n < 0) return null;
+                        if (n <= 1) return 1;
+                        return n * factorial(n-1);
+                      }
+                </code>
+            </pre>
+        </section>
+
+        <section class="section" id="projects">
+            <h2 class="section-title">Projects</h2>
+            <ul>
+                <li><a class="links" href="https://flammenmeer94.github.io/rsschool-cv/">rsschool-cv-html</a></li>
+            </ul>
+        </section>
+
+        <section class="section" id="education">
+            <h2 class="section-title">Education</h2>
+                <ul>
+                    <li>I am a 9th grade student of Dedurovskaya school</li>
+                    <li>RS School</li>
+                </ul>
+        </section>
+
+        <section class="section" id="language">
+            <h2 class="section-title">Languages</h2>
+                <ul>
+                    <li>Russian — Native</li>
+                    <li>English — A1 level (I try to improve it)</li>
+                </ul>
+        </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container footer-conteiner">
+            <div>
+                © 2023
+                <a class="links" href="https://github.com/flammenmeer94">flammenmeer94</a>
+            </div>
+            <a class="rss" href="https://rs.school/js-stage0/" ><img src="./assets/img/rs_school_js.svg" width="100px"></a>
+        </div>
+    </footer>
 </body>
 </html>
